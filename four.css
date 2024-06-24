@@ -1,5 +1,6 @@
 body{
     font-family: poppins;
+    padding:30px;
     padding-left: 150px;
 }
 
@@ -9,14 +10,14 @@ body{
 
 .header-1,.header-2{
     font-size: 30px;
-    padding: 0;
+    padding:20px;
     margin: 0;
 }
 
 .header-3{
     font-size: 15px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
 .main-page{
@@ -24,7 +25,7 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     padding: 50px;
     gap: 30px;
-    justify-content:center;
+    justify-content: center;
     
 }
 
@@ -95,21 +96,28 @@ img{
     body{
         justify-content: center;
         align-items: center;
+        padding:0px;
     }
     .main-page{
         display: flex;
        flex-direction: column;
-        padding-left: 20px;
+        padding-left: 0px;
         gap:30px;
+        justify-content: center;
+        align-items: center;
      
         
     }
 
-    .header-3{
-        padding:10px;
-    }
+    .card-1{
+	margin-top:-10px;
+      }
 
+    body{
+        padding:0px;
+    }
     .grid-3{
         margin-top:-100px;
     }
 }
+
